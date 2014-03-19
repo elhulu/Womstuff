@@ -1,0 +1,40 @@
+/* panier */
+
+#listPanier{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    background-color: #ffffff;
+    z-index: 9999;
+    right: 0px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #008cba;
+    display: none;
+}
+
+.panierInline{
+	display: inline-block;
+	margin-left: 4px;
+}
+
+.block{
+	margin-top: 5px;
+}
+
+.styleHR{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.headcart{
+	position: relative;
+}
+
+.accederaupanier{
+	color:white;
+	height: 30px;
+	margin-top: 10px;
+	width: 100%;
+	padding-top: 3px!important;
+}
+

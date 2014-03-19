@@ -1,0 +1,24 @@
+# User specific & automatically generated files #
+#################################################
+/app/Config/database.php
+/app/tmp
+/app/.htaccess
+/app/webroot/.htaccess
+/lib/Cake/Console/Templates/skel/tmp/
+/vendors
+/build
+/dist
+/tags
+.htaccess
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+app/webroot/uploads/
