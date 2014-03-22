@@ -46,43 +46,9 @@ class AppController extends Controller {
 
     function beforeFilter(){
 
-        // pass categories to sidebar
 
 
         // Globals
-        if( !defined('DOCROOT') )
-        {
-            define('DOCROOT',getcwd() . "\\");
-        }
-
-
-        $params = explode('/', $_SERVER['REQUEST_URI']);
-
-/* root joss
-        if( !defined('CONTROLLERROOT') )
-        {
-            define('CONTROLLERROOT',"http://".$_SERVER['HTTP_HOST'].'/'.$params[1].'/'.$params[2].'/'.$params[3].'/');
-        }
-*/
-
-        if( !defined('CONTROLLERROOT') )
-        {
-            define('CONTROLLERROOT',"http://".$_SERVER['HTTP_HOST'].'/'.$params[1].'/'.$params[2].'/');
-        }
-
-        if( !defined('SITEROOT') )
-        {
-            define('SITEROOT',"http://".$_SERVER['HTTP_HOST'].'/'.$params[1].'/');
-        }
-
-
-        if( !defined('USERNAME') )
-        {
-            if($this->Auth->loggedIn())
-            {
-                define('USERNAME',$this->Auth->user('username'));
-            }
-        }
 
         if( !defined('CART_COUNT') )
         {
