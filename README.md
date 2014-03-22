@@ -15,7 +15,7 @@ Pour ce qui concerne le JavaScript, jQuery est notre meilleur ami.
 • Un système de recherche avancée avec plusieurs niveaux de catégories (catégories -> sous catégories)
 et recherche par texte dans descriptif, nom, catégorie.
 
-• La possibilité de mettre des articles dans un panier ou un caddie.
+• La possibilité de mettre des articles dans un caddie.
 
 • Etat du caddie affiché sur toutes les pages (liste des produits, quantité, prix, total).
 
